@@ -1,0 +1,20 @@
+{
+  "api_key": "",
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3-8B",
+  "language": "Chinese",
+  "database_path": "",
+  "zotero_data_dir": "",
+  "limit": 20,
+  "include_types": [],
+  "exclude_keywords": [],
+  "selected_collections": [],
+  "delay": 1.0,
+  "max_pages": 50,
+  "max_tokens": 8000,
+  "output_dir": "output",
+  "export_detailed": false,
+  "export_statistics": true,
+  "debug": false,
+  "log_level": "INFO"
+}

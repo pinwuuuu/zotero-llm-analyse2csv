@@ -1,0 +1,26 @@
+# Zotero 本地文献分析器依赖
+# 核心功能
+loguru==0.7.2
+tqdm==4.66.1
+
+# PDF 处理
+PyMuPDF==1.23.14
+
+# AI 服务
+openai==1.12.0
+tiktoken==0.5.2
+
+# 数据处理
+pandas==2.1.4 
+
+# 类型提示支持
+typing-extensions>=4.5.0  # 类型提示扩展
+
+# 配置和数据库
+# sqlite3              # SQLite 数据库（Python 内置）
+# json                 # JSON 处理（Python 内置）
+# dataclasses          # 数据类（Python 3.7+ 内置）
+
+# 可选：其他 API 支持
+# anthropic>=0.3.0     # 如果要支持 Claude API
+# requests>=2.31.0     # HTTP 请求 
