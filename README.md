@@ -2,16 +2,6 @@
 
 🔬 一个智能的 Zotero 文献库分析工具，基于大模型 API 自动分析和总结您的学术文献。
 
-## 📖 开发者自述
-
-本人是一名来自西安交通大学的在读博士，平时使用 Zotero 阅读并记录文献，但是 Zotero 的笔记系统无法让我直观地看到文献的大致内容，缺乏按照表格结构化展示文章信息的功能。如果忘记某篇文献的标题与大致内容，在引用时非常麻烦。
-
-此时看到了 [zotero-arxiv-daily](https://github.com/hellojukay/zotero-arxiv-daily) 项目获得了启发，完成了这个本地文献分析工具。通过结合大模型的能力，可以自动分析文献内容，提取创新点和总结，并以结构化的 CSV 表格形式展示，大大提高了文献管理的效率。
-
-以后可能会继续完善这个项目（如果不忙的话😄）。本人能力有限，只熟悉 Python 编程，不会制作 Zotero 插件。如果有感兴趣的同学可以联系我（liupinwu@stu.xjtu.edu.cn），把这个项目做成 Zotero 插件，可以更加方便大家的使用。
-
-**感谢开发过程中 Cursor（DeepSeek、Claude、Gemini）的强力支持！** 🤖
-
 ## ✨ 主要功能
 
 - **📚 本地文献读取**：直接读取本地 Zotero 数据库，无需导出
@@ -240,9 +230,19 @@ A: 减少处理数量：
 python main.py --limit 50 --max-pages 20
 ```
 
+## 📖 开发者自述
+
+本人是一名来自西安交通大学的在读博士，平时使用 Zotero 阅读并记录文献，但是 Zotero 的笔记系统无法让我直观地看到文献的大致内容，缺乏按照表格结构化展示文章信息的功能。如果忘记某篇文献的标题与大致内容，在引用时非常麻烦。
+
+此时看到了 [zotero-arxiv-daily](https://github.com/hellojukay/zotero-arxiv-daily) 项目获得了启发，完成了这个本地文献分析工具。通过结合大模型的能力，可以自动分析文献内容，提取创新点和总结，并以结构化的 CSV 表格形式展示，大大提高了文献管理的效率。
+
+以后可能会继续完善这个项目（如果不忙的话😄）。本人能力有限，只熟悉 Python 编程，不会制作 Zotero 插件。如果有感兴趣的同学可以联系我（liupinwu@stu.xjtu.edu.cn），把这个项目做成 Zotero 插件，可以更加方便大家的使用。
+
+**感谢开发过程中 Cursor（DeepSeek、Claude、Gemini）的强力支持！** 🤖
+
 ## 📄 许可证
 
-本项目基于 [MIT License](LICENSE) 开源。
+本项目基于 [GNU Affero General Public License v3.0](LICENSE) 开源。
 
 ## 🤝 贡献
 
